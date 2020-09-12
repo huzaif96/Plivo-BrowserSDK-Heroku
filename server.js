@@ -6,7 +6,7 @@ var app = express();
 // process.env.PORT lets the port be set by Heroku
 var port = process.env.PORT || 8080;
 
-app.set('views', path.join(__dirname, '/webApp-plivo/'));
+app.set('views', path.join(__dirname, '/webApp-plivo/views'));
 
 // set the view engine to ejs
 app.set('view engine', 'ejs');
